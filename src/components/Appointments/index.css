@@ -1,0 +1,120 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+.app-container {
+  min-height: 700px;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 2px 2px 2px #b5b7c4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.appointment-app-container {
+  width: 80%;
+  margin-top: 48px;
+}
+.heading {
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.add-appointment-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.label-text {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #b5b7c4;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.title-input {
+  height: 40px;
+  width: 80%;
+  font-family: roboto;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #b5b7c4;
+  margin-bottom: 10px;
+  outline: none;
+}
+.date-input {
+  height: 40px;
+  width: 80%;
+  padding: 10px;
+  font-family: roboto;
+  font-weight: 600;
+  outline: none;
+}
+.img {
+  height: 300px;
+}
+.button {
+  height: 36px;
+  width: 80px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+.appointments-and-starred-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.appointments-head {
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 24px;
+  color: #171f46;
+}
+.starred-btn {
+  height: 34px;
+  width: 100px;
+  font-family: roboto;
+  border-radius: 15px;
+  font-weight: 600;
+}
+.filter-active {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: 0;
+}
+.filter-empty {
+  background-color: transparent;
+  border: 2px solid #8b5cf6;
+  color: #8b5cf6;
+}
+
+.appointments-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
